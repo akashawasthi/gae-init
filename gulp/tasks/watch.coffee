@@ -10,6 +10,7 @@ gulp.task 'reload', false, ->
     "#{paths.static.root}/**/*.js"
     "#{paths.main}/**/*.html"
     "#{paths.main}/**/*.py"
+    "#{paths.main}/**/*.md"
   ]).on 'change', $.livereload.changed
 
 
